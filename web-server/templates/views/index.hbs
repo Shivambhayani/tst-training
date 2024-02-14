@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="main">
+        {{>header}}
+        <p>Use this site to gey your weather</p>
+        <form>
+            <input placeholder="Location">
+            <button type="submit">submit</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+
+    <script defer src="/js/index.js"></script>
+</body>
+
+</html>
